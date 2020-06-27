@@ -1,3 +1,10 @@
+In this kernel, extensive EDA has been performed to understand the relation between each features with the changes. i:e if with increase in age, does the charges increase, if a person is smoker does he have to pay more for insurance  etc. After that I have converted this numerical feature into categorical one. For example age is categorized as young,adult, Senior Adult and BMI as underweight,healthy ,overweight and obese. 
+
+Learning:- IF possible convert your numerical feature to categorical one, it gives better result when included in model also gives more sense when interpreted.
+
+Once feature Engineering is Done I have used various models LR,GBR,DTR,SVR,RFR,KNN to predict the outcome and GBR gave a better result of 93%.
+
+DESCRIPTION:
 # Medical-Cost-Personal-Datasets
 Insurance Forecast for a person given his age,bmi, smoking status etc
 
